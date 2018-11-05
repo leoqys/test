@@ -23,6 +23,13 @@
   </properties>
 	
   <dependencies>
+	   <!-- https://mvnrepository.com/artifact/org.jgroups/jgroups -->
+<dependency>
+    <groupId>org.jgroups</groupId>
+    <artifactId>jgroups</artifactId>
+    <version>3.6.8.Final</version>
+</dependency>
+
     <dependency>
       <groupId>com.google.code.findbugs</groupId>
       <artifactId>jsr305</artifactId>
