@@ -23,6 +23,17 @@
   </properties>
 	
   <dependencies>
+
+<!-- https://mvnrepository.com/artifact/com.oracle.java/jre -->
+<dependency>
+    <groupId>com.oracle.java</groupId>
+    <artifactId>jre</artifactId>
+    <version>1.8.0_65</version>
+	<type>pom</type>
+</dependency>
+
+
+
  <!-- https://mvnrepository.com/artifact/org.jgroups/jgroups -->
 <dependency>
     <groupId>org.jgroups</groupId>
@@ -58,7 +69,33 @@
 
  
   </dependencies>
+  
+  <pluginRepositories>
+    <pluginRepository>
+      <id>central</id>
+      <name>Maven Plugin Repository</name>
+      <url>http://repo1.maven.org/maven2</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
+  
   <repositories>
+  <repository>
+	  <id>datanucleus</id>
+      <name>test3</name>
+      <url>http://www.datanucleus.org/downloads/maven2/</url>
+  </repository>
+  <repository>
+	  <id>alfresco</id>
+      <name>test2</name>
+      <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+  </repository>
   <repository>
 	  <id>spring</id>
       <name>test</name>
