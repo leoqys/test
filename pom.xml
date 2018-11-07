@@ -23,12 +23,13 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/com.typesafe.play/play -->
+<!-- https://mvnrepository.com/artifact/net.callumtaylor.asynchttp/asynchttpclient -->
 <dependency>
-    <groupId>com.typesafe.play</groupId>
-    <artifactId>play_2.11</artifactId>
-    <version>2.3.9</version>
+    <groupId>net.callumtaylor.asynchttp</groupId>
+    <artifactId>asynchttpclient</artifactId>
+    <version>1.5</version>
 </dependency>
+
 
   </dependencies>
   
