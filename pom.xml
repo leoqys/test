@@ -24,11 +24,10 @@
 	
   <dependencies>
 <dependency>
-	<groupId>com.eurodyn.qlack2.be</groupId>
-	<artifactId>qlack2-be-forms-orbeon-rest</artifactId>
-	<version>2.3.8</version>
+	<groupId>it.imolinfo.maven.plugins</groupId>
+	<artifactId>jboss-fuse-maven-plugin</artifactId>
+	<version>2.2.0</version>
 </dependency>
-
  
   </dependencies>
   
@@ -53,23 +52,5 @@
   </repository>
   </repositories>
   
-  
-  <build>
-        <plugins>
-            <plugin>
-              <groupId>org.owasp</groupId>
-              <artifactId>dependency-check-maven</artifactId>
-              <version>3.3.4</version>
-              <executions>
-                  <execution>
-                      <goals>
-                          <goal>check</goal>
-                      </goals>
-                  </execution>
-              </executions>
-            </plugin>
-            
-        </plugins>
-        
-    </build>
+
 </project>
