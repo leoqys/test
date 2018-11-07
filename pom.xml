@@ -23,15 +23,12 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework/play -->
+<!-- https://mvnrepository.com/artifact/com.typesafe.play/play -->
 <dependency>
-    <groupId>com.google.code.maven-play-plugin.org.playframework</groupId>
-    <artifactId>play</artifactId>
-    <version>1.5.0</version>
-    <scope>provided</scope>
+    <groupId>com.typesafe.play</groupId>
+    <artifactId>play_2.11</artifactId>
+    <version>2.3.10</version>
 </dependency>
-
- 
   </dependencies>
   
   <repositories>
