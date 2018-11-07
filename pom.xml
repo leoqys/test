@@ -23,26 +23,53 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/net.callumtaylor.asynchttp/asynchttpclient -->
 <dependency>
-    <groupId>net.callumtaylor.asynchttp</groupId>
-    <artifactId>asynchttpclient</artifactId>
-    <version>1.5</version>
+	<groupId>com.eurodyn.qlack2.be</groupId>
+	<artifactId>qlack2-be-forms-orbeon-rest</artifactId>
+	<version>2.3.8</version>
 </dependency>
 
-
+ 
   </dependencies>
   
+  
   <repositories>
+<repository>
+	  <id>maven</id>
+      <name>test3</name>
+      <url>https://repo.maven.apache.org/maven2/</url>
+  </repository>
+
   <repository>
 	  <id>alfresco</id>
       <name>test2</name>
-      <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+      <url>http://oss.jfrog.org/artifactory/jcenter-cache/</url>
   </repository>
+  
   <repository>
 	  <id>spring</id>
       <name>test</name>
       <url>https://repo.spring.io/libs-release/</url>
   </repository>
   </repositories>
+  
+  
+  <build>
+        <plugins>
+            <plugin>
+              <groupId>org.owasp</groupId>
+              <artifactId>dependency-check-maven</artifactId>
+              <version>3.3.4</version>
+              <executions>
+                  <execution>
+                      <goals>
+                          <goal>check</goal>
+                      </goals>
+                  </execution>
+              </executions>
+            </plugin>
+            
+        </plugins>
+        
+    </build>
 </project>
