@@ -108,7 +108,7 @@
   <repository>
 	  <id>sonatype</id>
       <name>test4</name>
-      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+      <url>https://repository.jboss.org/nexus/content/repositories/ea/</url>
   </repository>
   <repository>
 	  <id>alfresco</id>
