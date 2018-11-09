@@ -23,6 +23,7 @@
   </properties>
 	
   <dependencies>
+<!-- https://mvnrepository.com/artifact/org.jboss.fuse/jboss-fuse -->
 <dependency>
     <groupId>org.jboss.fuse</groupId>
     <artifactId>jboss-fuse</artifactId>
@@ -106,8 +107,8 @@
       <url>https://repo.maven.apache.org/maven2/</url>
   </repository>
   <repository>
-	  <id>sonatype</id>
-      <name>test4</name>
+	  <id>jboss</id>
+      <name>test5</name>
       <url>https://repository.jboss.org/nexus/content/repositories/ea/</url>
   </repository>
   <repository>
