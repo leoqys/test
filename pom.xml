@@ -23,11 +23,11 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/org.apache.ranger/ranger-plugins-common -->
+<!-- https://mvnrepository.com/artifact/org.jruby/jruby-complete -->
 <dependency>
-    <groupId>org.apache.ranger</groupId>
-    <artifactId>ranger-plugins-common</artifactId>
-    <version>0.6.1</version>
+    <groupId>org.jruby</groupId>
+    <artifactId>jruby-complete</artifactId>
+    <version>1.4.0</version>
 </dependency>
 
 	  
