@@ -23,12 +23,13 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
+<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/firefox -->
 <dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-compress</artifactId>
-    <version>1.4</version>
+    <groupId>com.atlassian.browsers</groupId>
+    <artifactId>firefox</artifactId>
+    <version>12.0</version>
 </dependency>
+
 
 	  
 <dependency>
