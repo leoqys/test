@@ -23,13 +23,12 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/firefox -->
+<!-- https://mvnrepository.com/artifact/org.apache.santuario/xmlsec -->
 <dependency>
-    <groupId>com.atlassian.browsers</groupId>
-    <artifactId>firefox</artifactId>
-    <version>12.0</version>
+    <groupId>org.apache.santuario</groupId>
+    <artifactId>xmlsec</artifactId>
+    <version>1.5.4</version>
 </dependency>
-
 
 	  
 <dependency>
