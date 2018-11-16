@@ -23,12 +23,13 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/org.jruby/jruby-complete -->
+<!-- https://mvnrepository.com/artifact/org.glassfish.common/glassfish-api -->
 <dependency>
-    <groupId>org.jruby</groupId>
-    <artifactId>jruby-complete</artifactId>
-    <version>1.4.0</version>
+    <groupId>org.glassfish.common</groupId>
+    <artifactId>glassfish-api</artifactId>
+    <version>3.1.1</version>
 </dependency>
+
 
 	  
 <dependency>
