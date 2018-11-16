@@ -23,11 +23,11 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/org.jboss.fuse/jboss-fuse -->
+<!-- https://mvnrepository.com/artifact/org.apache.myfaces.core/myfaces-api -->
 <dependency>
-    <groupId>org.b3log</groupId>
-    <artifactId>latke-repository-sqlserver</artifactId>
-    <version>2.4.9</version>
+    <groupId>org.apache.myfaces.core</groupId>
+    <artifactId>myfaces-api</artifactId>
+    <version>1.1.7</version>
 </dependency>
 
 <dependency>
