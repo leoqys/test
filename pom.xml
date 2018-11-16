@@ -23,11 +23,11 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/org.apache.cxf.fediz/fediz-core -->
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
-    <groupId>org.apache.cxf.fediz</groupId>
-    <artifactId>fediz-core</artifactId>
-    <version>1.4.2</version>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.40</version>
 </dependency>
 
 
